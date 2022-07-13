@@ -10,7 +10,6 @@ Var
    destino:caracter
    ida:inteiro
    volta:inteiro
-   valor:inteiro
 
 
 
@@ -19,16 +18,16 @@ Inicio
 
    Escreval("Seja Bemm - Vindo ao Salvador Tour")
    leia(bemvindo)
-   escreval("Faça o cadastro para continuar !!! ")
+   escreval("Faï¿½a o cadastro para continuar !!! ")
    leia(cadastro)
    escreva("Qual o seu nome? ")
    leia(nome)
    escreva(nome)
-   escreval(", Qual é o seu e-mail? ")
+   escreval(", Qual ï¿½ o seu e-mail? ")
    leia(email)
-   escreval("De onde você vai viajar? ")
+   escreval("De onde vocï¿½ vai viajar? ")
    leia(saida)
-   escreval("Para onde será o seu destino? ")
+   escreval("Para onde serï¿½ o seu destino? ")
    leia(destino)
    escreval("Digite o dia de ida: ")
    leia(ida)
@@ -38,13 +37,13 @@ Inicio
    escreva(" ")
    escreval(" Cliente: " , nome)
    escreva(" ")
-   escreval(" E-mail" , email)
+   escreval(" E-mail: " , email)
    escreva(" ")
-   escreval(" Passágem para: ", destino)
+   escreval(" Passï¿½gem para: ", destino)
    escreva(" ")
-   escreval(" Partida de " , saida , " dia: " , ida)
+   escreval(" Partida de: " , saida , " dia: " , ida)
    escreva(" ")
-   escreval(" Destino " , destino , " com retorno dia: ", volta)
+   escreval(" Destino: " , destino , " com retorno dia: ", volta)
    escreval("Boa Viagem")
 
 Fimalgoritmo
